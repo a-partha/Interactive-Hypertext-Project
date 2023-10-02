@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    font-family:"League Gothic";
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid rgb(0, 0, 0); */
+    background-color: #FFA4A4;
+  }
+  
+  .center-box{
+    width: 1200px;
+    height: 600px;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 5px solid rgb(255, 0, 0); */
+    text-align: center;
+  }
+  
+  
+  p{
+  color: #000000;
+   font-size: 40px;
+   font-weight: 400;
+   word-wrap: break-word
+  }
+  
+  #logo-pic{
+  width: 300px; 
+  height: 270px;
+  mix-blend-mode: darken;
+  /* border: 5px double #efa300; */
+  }
+  
+
+.button-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+  .button {
+    background-color: #ffbfbf;
+    height: 60px;
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    border-radius:25px;
+    font-family:"Dela Gothic One";
+    align-self: center;
+    border: 2px solid #000000;
+  }
+  
+  #pre:hover {
+    background-color:#ff8e8e;
+    transition: 0.2s;
+  }
+  
+  #during:hover {
+    background-color:#e02323;
+    transition: 0.2s;
+  }
+
+  #post:hover {
+    background-color:#ff8e8e;
+    transition: 0.2s;
+  }
