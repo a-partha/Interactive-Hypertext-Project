@@ -78,7 +78,7 @@ html {
 }
 
   .button {
-    background-color: #d17d7d;
+    background-color: #8a0f0f;
     height: 60px;
     width: 250px;
     font-size: 25px;
@@ -87,6 +87,7 @@ html {
     font-family:"Dela Gothic One";
     align-self: center;
     border: 2px solid #000000;
+    color: rgb(255, 153, 0);
   }
   
   #bridge:hover {
@@ -95,6 +96,6 @@ html {
   }
   
   #back:hover {
-    background-color:#a36e6e;
+    background-color:#9b3e3e;
     transition: 0.2s;
   }
