@@ -6,13 +6,13 @@ html {
   
   body {
     height: 705px;
-    width: 100%;
+    width: 100vw;
     font-family:"Lexend";
     display: flex;
     justify-content: center;
     /* border: 5px solid rgb(0, 0, 0); */
     background-color: #ffe030;
-    background-image: url('/RWY\ BG.png');
+    background-image: url('/RWY BG.png');
     /* background-color: transparent; */
     background-position: center center;
     background-size:cover;
@@ -112,6 +112,6 @@ html {
   }
   
   #back:hover {
-    background-color:#a36e6e;
+    background-color:#ff9900;
     transition: 0.2s;
   }
