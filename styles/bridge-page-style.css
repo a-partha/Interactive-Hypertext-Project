@@ -95,7 +95,9 @@ html {
 }
 
   .button {
-    background-color: #fbff00;
+    /* background-color: #fbff00; */
+    background-color: purple;
+    color: #ffffff;
     height: 60px;
     width: 220px;
     font-size: 20px;
@@ -103,7 +105,7 @@ html {
     border-radius:25px;
     font-family:"Lexend";
     align-self: center;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
   }
   
   #bridge:hover {

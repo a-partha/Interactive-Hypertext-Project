@@ -7,11 +7,11 @@ html {
   body {
     height: 100%;
     width: 100%;
-    font-family:"Zen Old Mincho";
+    font-family:"Abel";
     display: flex;
     justify-content: center;
     /* border: 5px solid rgb(0, 0, 0); */
-    background-color: #b14646;
+    background-color: #002e49;
     
   }
   
@@ -33,38 +33,44 @@ html {
     margin-top: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     /* border: 5px solid rgb(0, 255, 55); */
   }
   
   
   
-  p{
-  color: rgb(212, 212, 212);
-   font-size: 23px;
-   font-weight: 400;
-  text-shadow: 2px 0px 6px #000000;
-   text-align:center;
-  }
-  
 
-  #to{
-    font-size: 50px;
-  }
   
-  #motown-pic{
+  #t40-pic{
   width: 300px; 
   height: 270px;
-  mix-blend-mode:screen;
+  /* mix-blend-mode:screen; */
+  border: 5px double #efa300;
   }
 
-  #epic-pic{
-    width: 300px; 
-    height: 215px;
-    mix-blend-mode:darken;
-    margin-top: 10px;
-    }
+  .text-box{
+    width: 1400px;
+    /* height: 1000px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* border: 5px solid rgb(0, 0, 0); */
+    background-color: rgb(71, 125, 77);
+    /* border-radius: 25px; */
+    padding-left: 15px;
+    padding-right: 30px;
+    /* opacity: 80%; */
+  }
 
+    
+  p{
+    color: rgb(0, 0, 0);
+     font-size: 22px;
+     text-align:left;
+    }
+    
+ 
   
 
 .button-box{
@@ -78,24 +84,21 @@ html {
 }
 
   .button {
-    background-color: #8a0f0f;
+    background-color: #205d83;
     height: 60px;
     width: 275px;
     font-size: 25px;
     text-align: center;
     border-radius:25px;
-    font-family:"Zen Old Mincho";
+    font-family:"Abel";
     align-self: center;
-    border: 2px solid #000000;
-    color: rgb(255, 153, 0);
+    border: 2px solid rgb(71, 125, 77);
+    color: rgb(0, 0, 0);
   }
   
-  #bridge:hover {
-    background-color:#e02323;
-    transition: 0.2s;
-  }
   
-  #back:hover {
-    background-color:#9b3e3e;
+  #exit:hover {
+    background-color:#004a75;
+    
     transition: 0.2s;
   }

@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    font-family:"Dela Gothic One";
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid rgb(0, 0, 0); */
+    background-color: #0091ff;
+  }
+  
+  .center-box{
+    width: 1200px;
+    /* height: 715px; */
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 5px solid rgb(255, 0, 0); */
+    text-align: center;
+  }
+  
+  
+  p{
+  color: rgb(163, 212, 255);
+   font-size: 40px;
+   font-weight: 400;
+   word-wrap: break-word
+  }
+  
+  #cover-pic{
+  width: 300px; 
+  height: 270px;
+  border: 5px double #efa300;
+  }
+  
+  .button {
+    background-color: #006bbd;
+    height: 60px;
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    border-radius:25px;
+    font-family:"Dela Gothic One";
+    align-self: center;
+    color: rgb(163, 212, 255);
+    border: 2px solid rgb(163, 212, 255);
+  }
+  
+  .button:hover {
+    background-color:#004691;
+    transition: 0.2s;
+  }
+  

@@ -1,0 +1,159 @@
+html {
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  body {
+    height: 1300px;
+    width: 100vw;
+    font-family:"Josefin Sans";
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid rgb(0, 0, 0); */
+    background-color: #8f6767;
+  
+    background-image: url("http://2.bp.blogspot.com/-vBuR92wNbyQ/VDDk21uSnKI/AAAAAAAARis/OIVlRrWeFxE/s1600/3thriller-michael_jackson.gif");
+    background-position: center;
+    /* background-size: 370px 200px; */
+    /* background-color: transparent; */
+    /* background-position: center center;
+    background-size:cover; */
+    
+  }
+  
+  .center-box{
+    width: 1400px;
+    height: 1300px;
+    display :flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: space-between; */
+    /* align-content: space-between; */
+    /* border: 5px solid rgb(255, 0, 0); */
+  }
+
+
+  
+  .vid-box{
+    width: 400px;
+    height: 250px;
+    margin-top: 45px;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center; */
+    align-items: center;
+    align-self: center;
+    /* border-radius: 25px;  */
+     border: 5px solid rgb(203, 0, 0);
+     background-color:transparent;
+  }
+
+
+
+  
+  
+  .text-box{
+    /* width: 1400px; */
+    height: 770px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* border: 5px solid rgb(0, 0, 0); */
+    background-color: rgba(95, 135, 177, 0.852);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 95%;
+    
+  }
+  
+  p{
+  color: #ffffff;
+   font-size: 24.5px;
+   font-weight: 400;
+   text-align:left;
+  }
+  
+#quote{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 1px 2px 6px #000000;
+  text-align:center;
+}
+  
+  #str{
+    color: #000000;
+    font-size: 24px;
+    /* text-shadow: 4px 5px 6px #ffc2c2; */
+    text-shadow: none;
+  }
+  
+  #str-pic{
+  /* width: 400px;  */
+  /* height: 310px; */
+  border: 5px solid rgb(255, 242, 0);
+  }
+
+  #thriller-alt-pic{
+    width: 400px; 
+    height: 310px;
+    /* height: 100%; */
+    /* mix-blend-mode:darken; */
+    /* margin-top: 45px; */
+    border: 5px solid rgb(139, 139, 139);
+    }
+
+  #bridge-pic{
+    width: 450px; 
+    /* height: 220px; */
+    height: 285px;
+    mix-blend-mode:screen;
+    margin-top: 10px;
+    align-self:center; 
+    border-radius:25px;  }
+
+  
+
+.button-box{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 48px;
+    /* border: 5px solid rgb(0, 26, 255); */
+}
+
+  .button {
+    background-color: rgba(95, 135, 177, 0.852);
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+    border-radius:25px;
+    font-family:"Josefin Sans";
+    align-self: center;
+    border: 3px solid #c00000;
+    color: #ffffff;
+  }
+  
+
+  #story:hover{
+    background-color:#ff0000;
+    transition: 0.2s;
+  }
+
+  #post-thriller:hover {
+    background-color:rgb(0, 60, 124);
+    transition: 0.2s;
+  }
+
+  #exit:hover {
+    background-color:rgb(0, 60, 124);
+    transition: 0.2s;
+  }
+  
+  
